@@ -1,0 +1,45 @@
+body{
+    background-color: #8ef38a;
+    
+    }
+header {
+     text-align: center;
+  background-color: #01200a;
+ margin-bottom:60px;
+}
+h2{
+    color: #0bb105;
+    text-align: center;
+   padding: 20 px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bloc {
+  display: flex;
+  gap: 20px; 
+}
+.projets {
+  background-color:  rgb(203, 211, 218);
+  padding: 20px;
+  flex: 1; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+   margin-bottom:60px;
+   }
+   img {
+    width: 100%;        
+  max-width: 200px;   
+  height: auto; 
+ margin: 0 auto;
+   display: block;
+ }
+ aside{
+    text-align: right;
+    }
+      a {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+color: #043f02;
+border: #043802;
+font-size: large;
+background-color: #0bb105;
+ }

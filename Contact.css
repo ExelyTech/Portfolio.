@@ -1,0 +1,42 @@
+#contact{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    background-color:  #01200a;
+    color: white;
+     border: 2px solid  #0bb105;
+  border-radius: 10px;
+  padding: 10px;
+}
+#marge{
+   margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight: 600;
+ }
+ span{
+    color: #0bb105;
+ }
+#ecart{
+    text-align: right;
+    
+}
+label{
+    font-size: small;
+}
+
+ input, textarea {
+  border: 2px solid  #0bb105;
+  border-radius: 10px;
+  padding: 10px;
+}
+ button{
+    background-color: rgb(203, 211, 218);
+    border: 2px solid  #0bb105;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #088504;
+    font-size: large;
+}
+ body{
+ background-color: rgb(203, 211, 218);
+ 
+ }

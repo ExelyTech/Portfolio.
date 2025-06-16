@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez moi</title>
+    <link rel="stylesheet" href="Contact.css" />
+</head>
+<body>
+    <section id="contact">
+        <p id="marge">Vous avez un <span class="p1">projet en tête ?</span></p>
+        <p id="marge"> N'hésitez pas à me <span class="p2">contacter.</span></p>
+    <form action="exelyamen2001@gmail.com" method="POST" name="monFormulaire">
+
+            <label for="prenom" onsubmit="validerFormulaire();">Votre prenom :</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
+            <label for="nom">Votre nom :</label>
+            <input type="text" name="nom" id="nom" placeholder ="Votre nom" required><br>
+       
+        <label for="sujet">Entrez votre sujet :</label> 
+        <input type="text" id="sujet" size="55"><br>
+        <label for="message">Message : </label><br> 
+        <textarea name="message" rows="20" cols="70" placeholder=" message ici..." ></textarea><br> 
+            
+            <button type="submit">Envoyer</button>
+        </form>
+
+    
+    </section>
+     <footer>
+        <p>Designed by BOKO Exely with HTML CSS JS ; exelyamen2001@gmail.com</p> 
+        <p id="ecart">Tous droits réservés - 2025</p>
+    </footer>
+    <script src="contacts.js"></script>
+</body>
+</html>

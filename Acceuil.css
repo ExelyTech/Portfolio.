@@ -1,0 +1,72 @@
+header {
+     text-align: center;
+   background-color: #01200a;
+
+}
+ h1{
+    color: #0bb105;
+    text-align: center;
+   padding: 20 px;
+}
+ h3{
+    color: #0bb105;
+     font-style: oblique;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+  
+    padding: 20 px;
+    display: flex;
+    position: relative;
+    
+  }
+nav ul li {
+    margin: 0 15px;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+section{
+    background-color: rgb(203, 211, 218);
+  margin: 5% 0;
+ }
+  a {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+color: #043f02;
+border: #043802;
+font-size: large;
+background-color: #0bb105;
+ }
+ body{
+    background-color: #8ef38a;
+ }
+ img {
+  border: 2px solid #4CAF50;
+  padding: 5px;
+  
+}
+img {
+  max-width: 100%;
+  max-height: 300px;
+ border-radius: 10px;  }
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    }
+    aside{
+        text-align: center;
+    }
+    .images {
+ background-image: url('Energie Verte2.jpg'); 
+    }
+    aside{
+    text-align: right;
+      }
